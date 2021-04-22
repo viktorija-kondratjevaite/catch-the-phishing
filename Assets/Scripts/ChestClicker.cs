@@ -9,9 +9,7 @@ public class ChestClicker : MonoBehaviour
 
     void Start()
     {
-        // Debug.Log(GameManager.boatClicked);
         chestHint.SetActive(false);
-        GameManager.chestClicked = false;
     }
 
     void FixedUpdate()
@@ -19,13 +17,13 @@ public class ChestClicker : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && GameManager.boatClicked == true)
         {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                if(hit.transform.gameObject.tag == "Chest");
+                Debug.Log(hit.transform.gameObject.tag);
+                if (hit.transform.gameObject.tag == "Chest")
                 {
-                    // Debug.Log("Chest");
                     ShowHint();
                     GameManager.chestClicked = true;
                 }    
