@@ -5,19 +5,28 @@ using UnityEngine;
 public class BoatClicker : MonoBehaviour
 {
     public GameObject boatHint; 
-
+    
     void Start()
     {
         boatHint.SetActive(false);
     }
 
-    
-    void Update()
+    void FixedUpdate()
     {
-        if (Input.GetMouseButtonDown(0))
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+         if (Input.GetMouseButtonDown(0))
         {
-            ShowHint();
-            GameManager.boatClicked = true; 
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                Debug.Log(hit.transform.gameObject.tag);
+                if(hit.transform.gameObject.tag == "Boat");
+                {
+                    // Debug.Log("Boat");
+                    ShowHint();
+                    GameManager.boatClicked = true; 
+                }    
+            }
         }
     }
 
