@@ -9,7 +9,7 @@ public class MushroomClicker : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Input.GetMouseButtonDown(0) && GameManager.chestClicked == true)
+        if (Input.GetMouseButtonDown(0) && GameManager.chestClicked == true && FirstTask.firstTaskDone == false)
         {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {

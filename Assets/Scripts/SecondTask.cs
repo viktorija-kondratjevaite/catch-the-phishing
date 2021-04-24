@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SecondTask : MonoBehaviour
 {
+    public static bool secondTaskDone = false;
+
     public GameObject firstTask;
     public GameObject secondTask;
     public GameObject thirdTask;
@@ -40,6 +42,7 @@ public class SecondTask : MonoBehaviour
                 case 3: 
                 thirdTask.SetActive(false);
                 finishedTask.SetActive(true);
+                secondTaskDone = true;
                 break;
             }
             

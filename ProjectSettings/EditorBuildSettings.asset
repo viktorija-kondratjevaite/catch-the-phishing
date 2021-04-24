@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CodeInput.unity
     guid: e0219c039ad98427fbd76d432d0d642c
+  - enabled: 1
+    path: Assets/Scenes/FirstTask.unity
+    guid: 2f0725e43e99448ebb2ca9466a4d699e
+  - enabled: 1
+    path: Assets/Scenes/SecondTask.unity
+    guid: 895923697460344c2ae3d16a90cf0774
   m_configObjects: {}
