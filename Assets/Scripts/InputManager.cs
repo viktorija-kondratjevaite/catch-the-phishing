@@ -27,4 +27,9 @@ public class InputManager : MonoBehaviour
        else
        SceneManager.LoadSceneAsync("Island");
    }
+
+   public void ChangeScene()
+   {
+       SceneManager.LoadSceneAsync("Island");
+   }
 }

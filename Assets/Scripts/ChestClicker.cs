@@ -21,7 +21,6 @@ public class ChestClicker : MonoBehaviour
         {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
-                Debug.Log(hit.transform.gameObject.tag);
                 if (hit.transform.gameObject.tag == "Chest")
                 {
                     ShowHint();
@@ -29,19 +28,17 @@ public class ChestClicker : MonoBehaviour
                 }    
             }
         }
+        if (Input.GetMouseButtonDown(1) && GameManager.boatClicked == true)
+        {
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                if (hit.transform.gameObject.tag == "Chest")
+                {
+                    Application.LoadLevelAsync("CodeInput");
+                }    
+            }
+        }
     }
-    
-    // void Update()
-    // {
-    //     // Debug.Log(GameManager.boatClicked);
-    //     if (Input.GetMouseButtonDown(0) && GameManager.boatClicked == true) 
-    //     {
-    //         ShowHint();
-    //         GameManager.chestClicked = true;
-    //     }
-    //     if (Input.GetMouseButtonDown(1))
-    //         SceneManager.LoadSceneAsync("CodeInput");
-    // }
 
     private void ShowHint()
     {

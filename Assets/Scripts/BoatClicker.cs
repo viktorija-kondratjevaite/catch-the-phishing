@@ -11,7 +11,7 @@ public class BoatClicker : MonoBehaviour
         boatHint.SetActive(false);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
