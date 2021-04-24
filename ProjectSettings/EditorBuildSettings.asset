@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SecondTask.unity
     guid: 895923697460344c2ae3d16a90cf0774
+  - enabled: 1
+    path: Assets/Scenes/ThirdTask.unity
+    guid: 262deb05411a7483db703fa5a14ee2b7
   m_configObjects: {}
