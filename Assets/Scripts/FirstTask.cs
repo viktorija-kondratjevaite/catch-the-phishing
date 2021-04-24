@@ -10,7 +10,7 @@ public class FirstTask : MonoBehaviour
     public GameObject help;
     public GameObject wrongAnswer;
     public GameObject finishedTask;
-    private bool answerIncorrect;
+    private bool answerIncorrect = false;
     private int answeredCorrectly = 0; 
     
     public void Start()
@@ -21,7 +21,6 @@ public class FirstTask : MonoBehaviour
         help.SetActive(false);
         finishedTask.SetActive(false);
         wrongAnswer.SetActive(false);
-        answerIncorrect = false; 
     }
 
     public void CorrectAnswer()

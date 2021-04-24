@@ -8,6 +8,7 @@ public static class GameManager
     public static bool boatClicked = false; 
     public static bool chestClicked = false; 
     public static bool mushroomClicked = false; 
+    public static bool rockClicked = false;
     // public static GameObject player;
     // public static float x; 
     // public static float y;
