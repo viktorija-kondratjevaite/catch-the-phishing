@@ -1287,7 +1287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c576e1097ef79e64a9f0ab7c3883cf4a, type: 3}
       propertyPath: m_Name
-      value: Campfire_anim
+      value: Campfire
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c576e1097ef79e64a9f0ab7c3883cf4a, type: 3}
+      propertyPath: m_TagString
+      value: Campfire
       objectReference: {fileID: 0}
     - target: {fileID: 4369542016702935784, guid: c576e1097ef79e64a9f0ab7c3883cf4a, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1417,10 +1421,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c367e2b3b95fb46359a63224fc91b91e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.644
+  m_Volume: 1
   m_Pitch: 1
-  Loop: 0
-  Mute: 0
+  Loop: 1
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -1850,6 +1854,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1392525811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392525808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19c98f20123a4ea29bc0b4276996eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1392525812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392525808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1602020985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2757719474709196183, guid: c576e1097ef79e64a9f0ab7c3883cf4a, type: 3}
@@ -2294,8 +2323,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831328729}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: 58.930832, y: -6.0149765, z: 105.157166}
+  m_LocalRotation: {x: -0.2141042, y: 0.53273463, z: 0.14142539, w: 0.806444}
+  m_LocalPosition: {x: 31.881842, y: -7.292122, z: 27.702982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

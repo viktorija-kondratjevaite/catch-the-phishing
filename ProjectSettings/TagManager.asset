@@ -9,6 +9,7 @@ TagManager:
   - Mushroom
   - Rock
   - Sunflower
+  - Campfire
   layers:
   - Default
   - TransparentFX

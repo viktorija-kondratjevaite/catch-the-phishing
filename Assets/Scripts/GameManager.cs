@@ -10,6 +10,7 @@ public static class GameManager
     public static bool mushroomClicked = false; 
     public static bool rockClicked = false;
     public static bool sunflowerClicked = false; 
+    public static bool campfireClicked =false;
     
      public static IEnumerator RemoveAfterSeconds(int seconds, GameObject obj) 
     {

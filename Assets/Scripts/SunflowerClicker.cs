@@ -8,8 +8,6 @@ public class SunflowerClicker : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        Debug.Log(GameManager.rockClicked);
-        Debug.Log(ThirdTask.thirdTaskDone);
         if (Input.GetMouseButtonDown(0) && GameManager.rockClicked == true && ThirdTask.thirdTaskDone == false)
         {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))
