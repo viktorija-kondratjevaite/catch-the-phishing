@@ -10,6 +10,7 @@ TagManager:
   - Rock
   - Sunflower
   - Campfire
+  - Music
   layers:
   - Default
   - TransparentFX
