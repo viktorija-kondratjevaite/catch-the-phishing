@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 23.03.2012 15:54:44
+
+newmtl unknown_wooden_sculpture_1_mtl_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5000 0.5000 0.5000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka dcmap_unknown_wooden_sculpture_1_1.jpg
+	map_Kd dcmap_unknown_wooden_sculpture_1_1.jpg
+	map_d dcmap_unknown_wooden_sculpture_1_3.jpg
+	map_bump dcmap_unknown_wooden_sculpture_1_2.jpg
+	bump dcmap_unknown_wooden_sculpture_1_2.jpg
+
+newmtl unknown_wooden_sculpture_1_mtl_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1098 0.0745 0.0471
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_bump dcmap_unknown_wooden_sculpture_1_4.jpg
+	bump dcmap_unknown_wooden_sculpture_1_4.jpg

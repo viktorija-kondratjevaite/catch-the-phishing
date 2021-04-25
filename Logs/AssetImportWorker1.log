@@ -200,3 +200,271 @@ Received Import Request.
 Start importing Assets/Scenes/SecondTask.unity using Guid(895923697460344c2ae3d16a90cf0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6f541e29e2ce12e368f9cb69ab5b8a') in 0.010870 seconds
   Import took 0.014018 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.5 MB.
+System memory in use after: 190.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 2.310562 ms (FindLiveObjects: 0.175584 ms CreateObjectMapping: 0.043736 ms MarkObjects: 1.462097 ms  DeleteObjects: 0.628194 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.236569 seconds.
+  path: Assets/Scenes/Island.unity
+  artifactKey: Guid(8a78b4e19f84c48ef96819277e42862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Island.unity using Guid(8a78b4e19f84c48ef96819277e42862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7cc07b2870db46bb1e336d44ffe37c') in 0.010591 seconds
+  Import took 0.012829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.461975 seconds.
+  path: Assets/Wooden_Canopy/Prefab
+  artifactKey: Guid(bc7c372adaee5334e8b28150ba9e823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_Canopy/Prefab using Guid(bc7c372adaee5334e8b28150ba9e823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c214ef7d325a5ad5cab8cc87793227f') in 0.000958 seconds
+  Import took 0.003161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283001 seconds.
+  path: Assets/Wooden_Canopy/Prefab/Canopy.prefab
+  artifactKey: Guid(4c4896384163f7c428f38c4741487cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_Canopy/Prefab/Canopy.prefab using Guid(4c4896384163f7c428f38c4741487cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c827e3cd9cc9224fa069dc52a0abe5') in 1.480605 seconds
+  Import took 1.486329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Wooden_Canopy/Prefab/Stair.prefab
+  artifactKey: Guid(5adc4c9e94b1d9c46b2350bfdfda86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_Canopy/Prefab/Stair.prefab using Guid(5adc4c9e94b1d9c46b2350bfdfda86c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dee0db61cdfd02a3b54bb76cb5b9dc3') in 0.016841 seconds
+  Import took 0.019046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Wooden_Canopy/Prefab/FireWood.prefab
+  artifactKey: Guid(7bcb58554a8c3844daff1cb4024489dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden_Canopy/Prefab/FireWood.prefab using Guid(7bcb58554a8c3844daff1cb4024489dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137141ff2f7f60efda150ce69b60be7f') in 0.031408 seconds
+  Import took 0.034478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 2.328963 ms (FindLiveObjects: 0.152549 ms CreateObjectMapping: 0.042593 ms MarkObjects: 1.451237 ms  DeleteObjects: 0.681563 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 451.935892 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_2_fbx_obj.zip
+  artifactKey: Guid(b5f375ed68c174a79b07467d7f7a8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_2_fbx_obj.zip using Guid(b5f375ed68c174a79b07467d7f7a8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099de6924baf966e31f23d8b50b0738') in 0.247024 seconds
+  Import took 0.249432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246518 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj.zip
+  artifactKey: Guid(eb90f623fdd89495183886ce07109688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj.zip using Guid(eb90f623fdd89495183886ce07109688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4908ee8f71aa54673346ec91724ea') in 0.004369 seconds
+  Import took 0.006725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj.zip
+  artifactKey: Guid(eb90f623fdd89495183886ce07109688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj.zip using Guid(eb90f623fdd89495183886ce07109688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4908ee8f71aa54673346ec91724ea') in 0.004025 seconds
+  Import took 0.006212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.152985 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_obj.obj
+  artifactKey: Guid(0850d1042ba38495aaa041b498fcb13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_obj.obj using Guid(0850d1042ba38495aaa041b498fcb13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4d61f7ad3324b4e032d1e4c37d93d') in 0.911171 seconds
+  Import took 0.913498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.640294 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_upY.fbx
+  artifactKey: Guid(5621788b84ab341a2a04dd27526ef9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_upY.fbx using Guid(5621788b84ab341a2a04dd27526ef9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d48022988a901c1a5d992bedfa7840') in 0.919047 seconds
+  Import took 0.921494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_obj 1.obj
+  artifactKey: Guid(257e9a88585e544fd87aeca7de5baee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_obj 1.obj using Guid(257e9a88585e544fd87aeca7de5baee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1451bd476627bd4bfdfa35e41aad1e92') in 0.028306 seconds
+  Import took 0.030304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_upZ.fbx
+  artifactKey: Guid(1ca211e8e31f349f9a4eb32955c1e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_upZ.fbx using Guid(1ca211e8e31f349f9a4eb32955c1e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1ead83780a092f8e3bdf69c8bb2a23') in 0.026719 seconds
+  Import took 0.028867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.123684 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_obj.mtl
+  artifactKey: Guid(368b1f4da218a4332b979c99c8ad0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_obj.mtl using Guid(368b1f4da218a4332b979c99c8ad0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b0699ad840bf2f0b4618c255da6cd5') in 0.004988 seconds
+  Import took 0.007328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_obj.mtl
+  artifactKey: Guid(368b1f4da218a4332b979c99c8ad0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_obj.mtl using Guid(368b1f4da218a4332b979c99c8ad0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b0699ad840bf2f0b4618c255da6cd5') in 0.004027 seconds
+  Import took 0.006515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.556296 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj
+  artifactKey: Guid(b3b7e57d1535e45e18457579253bf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj using Guid(b3b7e57d1535e45e18457579253bf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a64c9786336848ec7453e09e9bb8387') in 0.001489 seconds
+  Import took 0.003533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079269 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_1.jpg
+  artifactKey: Guid(1fd01dc7666d140b6b3dd96701b04a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_1.jpg using Guid(1fd01dc7666d140b6b3dd96701b04a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533bf7c651690379631327b87442769a') in 0.297950 seconds
+  Import took 0.300276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_4.jpg
+  artifactKey: Guid(00b213c0344af421dafbc7eab4ad5b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_4.jpg using Guid(00b213c0344af421dafbc7eab4ad5b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafcf6ea4a49b613f0e70c69b5aa2855') in 0.015614 seconds
+  Import took 0.017675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3.jpg
+  artifactKey: Guid(d545ad1330ed04cb792a705780d74791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3.jpg using Guid(d545ad1330ed04cb792a705780d74791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8f50c712219839360c5a6053891eb5') in 0.022743 seconds
+  Import took 0.024919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_fbx_upZ.fbx
+  artifactKey: Guid(21b4402995d9d41959150e29ab521c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_fbx_upZ.fbx using Guid(21b4402995d9d41959150e29ab521c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f3bcfe20fdc29cbb33750a42b94f79') in 0.033562 seconds
+  Import took 0.035816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_fbx_upY.fbx
+  artifactKey: Guid(337e297e9619747f092d10437263f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_fbx_upY.fbx using Guid(337e297e9619747f092d10437263f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b51d78657806b6bce72c2aef88428c3') in 0.030827 seconds
+  Import took 0.032899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_5.jpg
+  artifactKey: Guid(6040169de8d9f494b96f8966b85b1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_5.jpg using Guid(6040169de8d9f494b96f8966b85b1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fec77c8b4c09c492f07cfbcc86b4c1') in 0.006080 seconds
+  Import took 0.008239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_6.jpg
+  artifactKey: Guid(dd8f6452ce9004ee5945506b686311cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_6.jpg using Guid(dd8f6452ce9004ee5945506b686311cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571e6bf41427afc2b8844a55c2ca8f40') in 0.005598 seconds
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3_inv.jpg
+  artifactKey: Guid(8e072e2136ff44b9b878a12598e81967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3_inv.jpg using Guid(8e072e2136ff44b9b878a12598e81967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931cbc3e01df3eda1b72b0336d279b23') in 0.006741 seconds
+  Import took 0.008942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_2.jpg
+  artifactKey: Guid(2ecaab62a027d438898bf2c868a4f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_2.jpg using Guid(2ecaab62a027d438898bf2c868a4f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06213398db4ce6fba22fac7c2b601a60') in 0.006412 seconds
+  Import took 0.008579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_obj.obj
+  artifactKey: Guid(5e655846393a14e7da997a66a1d99163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/unknown_wooden_sculpture_1_obj.obj using Guid(5e655846393a14e7da997a66a1d99163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f314ad1b5bc427e28d0e02b5a1ef90c') in 0.033187 seconds
+  Import took 0.035502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3_inv.jpg
+  artifactKey: Guid(8e072e2136ff44b9b878a12598e81967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/unknown_wooden_sculpture_1_fbx_obj/dcmap_unknown_wooden_sculpture_1_3_inv.jpg using Guid(8e072e2136ff44b9b878a12598e81967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931cbc3e01df3eda1b72b0336d279b23') in 0.004698 seconds
+  Import took 0.006774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.9 MB.
+System memory in use after: 213.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 2.680065 ms (FindLiveObjects: 0.198908 ms CreateObjectMapping: 0.054747 ms MarkObjects: 1.752202 ms  DeleteObjects: 0.673182 ms)
+
