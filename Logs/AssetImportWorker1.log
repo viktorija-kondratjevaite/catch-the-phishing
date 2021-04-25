@@ -136,3 +136,67 @@ System memory in use after: 185.1 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1812.
 Total: 2.217942 ms (FindLiveObjects: 0.155341 ms CreateObjectMapping: 0.042616 ms MarkObjects: 1.397699 ms  DeleteObjects: 0.621058 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 6320.149438 seconds.
+  path: Assets/Models/10455_Sunflower_v1_max2010_it2.mtl
+  artifactKey: Guid(e35fdb0b95d7341f0bb3f4452aca01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/10455_Sunflower_v1_max2010_it2.mtl using Guid(e35fdb0b95d7341f0bb3f4452aca01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e276420546c943c06ebf19f20e222') in 0.410520 seconds
+  Import took 0.501851 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.320235 ms (FindLiveObjects: 0.263212 ms CreateObjectMapping: 0.046223 ms MarkObjects: 1.395001 ms  DeleteObjects: 0.614812 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 635.353190 seconds.
+  path: Assets/Scenes/FirstTask.unity
+  artifactKey: Guid(2f0725e43e99448ebb2ca9466a4d699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstTask.unity using Guid(2f0725e43e99448ebb2ca9466a4d699e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0caec19f6fec0c67bcfbbeb82c7a7') in 0.016956 seconds
+  Import took 0.021468 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 2.439848 ms (FindLiveObjects: 0.187302 ms CreateObjectMapping: 0.051060 ms MarkObjects: 1.502712 ms  DeleteObjects: 0.697395 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.994706 seconds.
+  path: Assets/Scenes/SecondTask.unity
+  artifactKey: Guid(895923697460344c2ae3d16a90cf0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SecondTask.unity using Guid(895923697460344c2ae3d16a90cf0774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6f541e29e2ce12e368f9cb69ab5b8a') in 0.010870 seconds
+  Import took 0.014018 seconds .
+
