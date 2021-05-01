@@ -149,14 +149,14 @@ RectTransform:
   m_GameObject: {fileID: 19428996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -68}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 80, y: 80, z: 80}
   m_Children: []
   m_Father: {fileID: 1639699335}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 166}
+  m_AnchoredPosition: {x: -6, y: 142}
   m_SizeDelta: {x: 700.067, y: 449.254}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &19428998
@@ -338,8 +338,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.35353822}
   m_AnchorMax: {x: 0.514, y: 0.5}
-  m_AnchoredPosition: {x: 292.8767, y: -203.64825}
-  m_SizeDelta: {x: 130.4072, y: -9.357201}
+  m_AnchoredPosition: {x: 214.90915, y: -147.47}
+  m_SizeDelta: {x: 104.589, y: -9.357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210196484
 MonoBehaviour:
@@ -386,9 +386,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: Help
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -470,8 +470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.6354, y: 132.7358}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: -4.1039963, y: 102.055}
+  m_SizeDelta: {x: 763.833, y: 74.237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224431903
 MonoBehaviour:
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: CorrectAnswer
         m_Mode: 1
         m_Arguments:
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -706,8 +706,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.6354, y: 132.7358}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: 0, y: 95}
+  m_SizeDelta: {x: 758.971, y: 49.635}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &243128045
 MonoBehaviour:
@@ -754,9 +754,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: IncorrectAnswer
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -914,8 +914,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 462, y: -250}
-  m_SizeDelta: {x: 145.4072, y: 78.6428}
+  m_AnchoredPosition: {x: 339.59, y: -179.13}
+  m_SizeDelta: {x: 99.4, y: 58.401}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363539109
 MonoBehaviour:
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 686187449}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
@@ -1125,8 +1125,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 23}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: -2.7597, y: 17}
+  m_SizeDelta: {x: 751.68, y: 47.495}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458437649
 MonoBehaviour:
@@ -1173,7 +1173,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: CorrectAnswer
         m_Mode: 1
         m_Arguments:
@@ -1336,8 +1336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300.3767, y: -247.64822}
-  m_SizeDelta: {x: 145.4072, y: 78.6428}
+  m_AnchoredPosition: {x: 219.254, y: -176.697}
+  m_SizeDelta: {x: 106.899, y: 57.249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &509342399
 MonoBehaviour:
@@ -1384,9 +1384,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: Help
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1468,8 +1468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 23}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: -5.899, y: 12}
+  m_SizeDelta: {x: 769.19, y: 77.446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543066321
 MonoBehaviour:
@@ -1516,9 +1516,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
-        m_MethodName: CorrectAnswer
-        m_Mode: 1
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
+        m_MethodName: IncorrectAnswer
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1670,15 +1670,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 686187448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1614c998351f24dc19d2fc7c919f1500, type: 3}
+  m_Script: {fileID: 11500000, guid: 220228edd8c464461ad0029891725829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLastTask: 0
+  nextTask: SUNFLOWER
   firstTask: {fileID: 505821095}
   secondTask: {fileID: 394708586}
   thirdTask: {fileID: 613015485}
   help: {fileID: 1639699334}
   wrongAnswer: {fileID: 19428996}
   finishedTask: {fileID: 262583267}
+  explanationOnSelfSSL: {fileID: 0}
 --- !u!4 &686187450
 Transform:
   m_ObjectHideFlags: 0
@@ -1728,8 +1731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.284, y: -219.82}
-  m_SizeDelta: {x: 322.568, y: 79.639}
+  m_AnchoredPosition: {x: 0.561, y: -156.023}
+  m_SizeDelta: {x: 247.691, y: 63.594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446246948
 MonoBehaviour:
@@ -1776,8 +1779,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
-        m_MethodName: ChangeScene
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
+        m_MethodName: changeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1860,8 +1863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 23}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: -4.1043, y: 16.047}
+  m_SizeDelta: {x: 763.83, y: 63.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487398458
 MonoBehaviour:
@@ -1908,9 +1911,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: IncorrectAnswer
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1992,8 +1995,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 462, y: -250}
-  m_SizeDelta: {x: 145.4072, y: 78.6428}
+  m_AnchoredPosition: {x: 340.211, y: -177.24}
+  m_SizeDelta: {x: 105.829, y: 66.876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514416434
 MonoBehaviour:
@@ -2039,7 +2042,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 686187449}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
@@ -2267,8 +2270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 462, y: -250}
-  m_SizeDelta: {x: 145.4072, y: 78.6428}
+  m_AnchoredPosition: {x: 337.025, y: -179.371}
+  m_SizeDelta: {x: 100.481, y: 51.901}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760288429
 MonoBehaviour:
@@ -2314,7 +2317,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 686187449}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 1
@@ -2364,6 +2367,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760288427}
   m_CullTransparentMesh: 1
+--- !u!1 &1879325133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879325135}
+  - component: {fileID: 1879325134}
+  m_Layer: 0
+  m_Name: GameNavigator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1879325134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879325133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9029f88f87a4b4c38945a9501378e4b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1879325135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879325133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.388107, y: 32.978783, z: 70.66729}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887919631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2399,8 +2445,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000023842, y: -252}
-  m_SizeDelta: {x: 327.058, y: 78.359}
+  m_AnchoredPosition: {x: 0, y: -178}
+  m_SizeDelta: {x: 240.414, y: 48.408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887919633
 MonoBehaviour:
@@ -2447,9 +2493,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: Continue
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2614,8 +2660,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300.3767, y: -247.64822}
-  m_SizeDelta: {x: 145.4072, y: 78.6428}
+  m_AnchoredPosition: {x: 219.975, y: -177.243}
+  m_SizeDelta: {x: 115.456, y: 66.876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026514404
 MonoBehaviour:
@@ -2662,9 +2708,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
         m_MethodName: Help
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2746,8 +2792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.6354, y: 132.7358}
-  m_SizeDelta: {x: 1036.0167, y: 77.4461}
+  m_AnchoredPosition: {x: -0.60079, y: 96.625}
+  m_SizeDelta: {x: 779.79, y: 61.324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068827607
 MonoBehaviour:
@@ -2794,8 +2840,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 686187449}
-        m_TargetAssemblyTypeName: SecondTask, Assembly-CSharp
-        m_MethodName: IncorrectAnswer
+        m_TargetAssemblyTypeName: TaskManager, Assembly-CSharp
+        m_MethodName: CorrectAnswer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

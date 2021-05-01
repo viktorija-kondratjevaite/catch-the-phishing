@@ -4,32 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class InputManager : MonoBehaviour
-{
+public class InputManager : MonoBehaviour {
     public GameObject inputField;
     public GameObject wrongCodeMessage;
     private string code = "8469";
     private string input;
 
-    public void Start()
-    {
+    public void Start() {
         wrongCodeMessage.SetActive(false);
     }
 
-   public void ValidateInput()
-   {
+   public void ValidateInput() {
        input = inputField.GetComponent<Text>().text;
-       if (input != code)
-       {
+
+       if (input != code) {
            wrongCodeMessage.SetActive(true);
            StartCoroutine(GameManager.RemoveAfterSeconds(5, wrongCodeMessage));
+       } else {
+           GameManager.codeInputCorrect = true;
+           GameManager.currentTask = GameManager.BOAT;
+           SceneManager.LoadSceneAsync("Island");
        }
-       else
-       SceneManager.LoadSceneAsync("Island");
    }
 
-   public void ChangeScene()
-   {
+   public void ChangeScene() {
        SceneManager.LoadSceneAsync("Island");
    }
 }
