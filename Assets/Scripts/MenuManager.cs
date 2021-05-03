@@ -3,25 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuManager : MonoBehaviour {
-    public GameObject menu;
+    public GameObject menuStart;
+    public GameObject menuContinue;
     public GameObject help;
     public GameObject settings;
     public GameObject moreAboutPhishing;
-    // public GameObject music;
     public AudioSource music;
-    private bool musicMuted = false;
+    public static bool isStartOfGame = true;
 
     public void Start() {
-        menu.SetActive(true);
+        if(isStartOfGame)
+            MuteMusic();
+        ChooseMenu();
     }
 
     public void OpenNewObject(GameObject newObject) {
         newObject.SetActive(true);
     }
 
+    public void ChooseMenu() {
+        if(isStartOfGame == true) {
+            menuStart.SetActive(true);
+        }
+        else {
+            menuContinue.SetActive(true);
+        }
+    }
+
     public void BackToMenu(GameObject currentObject){
         currentObject.SetActive(false);
-        menu.SetActive(true);
+        ChooseMenu();
     }
 
     public void QuitGame() {
@@ -29,18 +40,17 @@ public class MenuManager : MonoBehaviour {
     }
 
     public void MuteMusic() {
-        if(musicMuted == false) {
-            music.Stop();
-            musicMuted = true;
-        }
-        else {
-            music.Play();
-            musicMuted = false;
+        if(GameManager.musicMuted == false) {
+            GameObject.FindGameObjectWithTag("Music").GetComponent<MusicManager>().StopMusic();
+            GameManager.musicMuted = true;
+        } else {
+            GameObject.FindGameObjectWithTag("Music").GetComponent<MusicManager>().PlayMusic();
+            GameManager.musicMuted = false;
         }
     }
 
     public void Play() {
+        isStartOfGame = false;
         GameManager.ComeBackToIsland();
     }
-
 }

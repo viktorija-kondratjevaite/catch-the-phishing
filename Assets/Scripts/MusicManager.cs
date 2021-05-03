@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MusicManager : MonoBehaviour {
-    private static MusicManager instance = null;
+     private AudioSource music;
 
-    public static MusicManager Instance
-    {
-         get { return instance; }
+     private void Awake()
+     {
+         DontDestroyOnLoad(transform.gameObject);
+         music = GetComponent<AudioSource>();
      }
 
-     void Awake() {
-        if (instance != null && instance != this) {
-            Destroy(this.gameObject);
-            return;
-         } 
-         else {
-            instance = this;
-         }
-         DontDestroyOnLoad(this.gameObject);
+      public void PlayMusic()
+     {
+         if (music.isPlaying) return;
+         music.Play();
      }
+ 
+     public void StopMusic()
+     {
+         music.Stop();
+     }
+
 }

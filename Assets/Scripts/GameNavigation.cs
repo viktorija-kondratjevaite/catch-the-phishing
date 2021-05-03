@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameNavigation : MonoBehaviour
 {
     public void Update() {
     if (Input.GetKeyDown(KeyCode.Escape)) 
     {
-        Application.Quit();
+        MenuManager.isStartOfGame = false;
+         SceneManager.LoadSceneAsync("Menu");
     }
 }
 }

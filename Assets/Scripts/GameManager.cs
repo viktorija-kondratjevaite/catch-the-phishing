@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public static class GameManager
-{
+public static class GameManager {
     public const string BOAT = "BOAT";
     public const string MUSHROOM = "MUSHROOM";
     public const string CHEST = "CHEST";
@@ -24,17 +23,16 @@ public static class GameManager
     public static bool fourthTaskDone = false;
     public static bool codeInputCorrect = false; // TODO add to code input script
     public static bool chestCodeAcquired = false; 
+    public static bool musicMuted = true;
 
     public static string currentTask = BOAT;
     
-     public static IEnumerator RemoveAfterSeconds(int seconds, GameObject obj) 
-    {
+     public static IEnumerator RemoveAfterSeconds(int seconds, GameObject obj) {
         yield return new WaitForSeconds(seconds);
         obj.SetActive(false);
     }
     
-    public static void ComeBackToIsland()
-    {
+    public static void ComeBackToIsland() {
         SceneManager.LoadSceneAsync("Island");
     }
 }

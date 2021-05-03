@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - GameNavigation
     - HintsManager
     - InputManager
+    - MenuManager
     - MushroomClicker
     - MusicManager
     - RockClicker
@@ -79,13 +80,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3450}
+      Script: {instanceID: 3452}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,13 +133,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 4064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -181,13 +182,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 4064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -223,8 +224,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -234,10 +233,6 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -260,54 +255,42 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 1954}
-    - Class: 114
       Script: {instanceID: 2226}
-    - Class: 114
-      Script: {instanceID: 2268}
     - Class: 114
       Script: {instanceID: 2352}
     - Class: 114
-      Script: {instanceID: 2390}
+      Script: {instanceID: 2492}
     - Class: 114
       Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 3666}
     - Class: 114
-      Script: {instanceID: 3594}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 3664}
+      Script: {instanceID: 3960}
     - Class: 114
-      Script: {instanceID: 3848}
-    - Class: 114
-      Script: {instanceID: 3956}
-    - Class: 114
-      Script: {instanceID: 3996}
-    - Class: 114
-      Script: {instanceID: 21542}
+      Script: {instanceID: 4000}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -320,8 +303,6 @@ ScriptsOnlyBuild:
     - Class: 156
       Script: {instanceID: 0}
     - Class: 157
-      Script: {instanceID: 0}
-    - Class: 187
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -339,9 +320,76 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 226
-      Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1514}
+    - Class: 114
+      Script: {instanceID: 1516}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1954}
+    - Class: 114
+      Script: {instanceID: 2268}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 3096}
+    - Class: 114
+      Script: {instanceID: 3346}
+    - Class: 114
+      Script: {instanceID: 3874}
+    - Class: 114
+      Script: {instanceID: 3898}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 187
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 226
       Script: {instanceID: 0}
     Assets/Scenes/SecondTask.unity:
     - Class: 1
@@ -371,13 +419,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 4064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -422,13 +470,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3872}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 4064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -920,6 +968,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Characters.ThirdPerson
     className: AICharacterControl
+  - hash:
+      serializedVersion: 2
+      Hash: ee9c2022b9ae5a087136d9938a5d1f4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CodeDigitManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1432,6 +1486,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 7dff83e7f36eaef9d698d550a0f13417
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
       Hash: d63aae503ada135df9e49dad6d9fb277
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Effects
@@ -1502,14 +1562,9 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: SimpleActivatorMenu
-  - hash:
-      serializedVersion: 2
-      Hash: ee9c2022b9ae5a087136d9938a5d1f4d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CodeDigitManager
   platform: 2
   scenePathNames:
+  - Assets/Scenes/Menu.unity
   - Assets/Scenes/Island.unity
   - Assets/Scenes/CodeInput.unity
   - Assets/Scenes/FirstTask.unity
