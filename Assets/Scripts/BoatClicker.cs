@@ -18,9 +18,12 @@ public class BoatClicker : MonoBehaviour {
                 if (hit.transform.gameObject.tag == "Boat") {
                     if(GameManager.codeInputCorrect)
                         Application.LoadLevelAsync("TheEnd");
-                    ShowHint();
-                    GameManager.boatClicked = true; 
-                    GameManager.currentTask = GameManager.CHEST;
+                    else {
+                        ShowHint();
+                        GameManager.boatClicked = true; 
+                        GameManager.currentTask = GameManager.CHEST;
+                    }
+                    
                 }    
             }
         }
