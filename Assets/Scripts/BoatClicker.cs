@@ -16,6 +16,8 @@ public class BoatClicker : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) {
             if (Physics.Raycast(ray, out hit, Mathf.Infinity)) {
                 if (hit.transform.gameObject.tag == "Boat") {
+                    if(GameManager.codeInputCorrect)
+                        Application.LoadLevelAsync("TheEnd");
                     ShowHint();
                     GameManager.boatClicked = true; 
                     GameManager.currentTask = GameManager.CHEST;

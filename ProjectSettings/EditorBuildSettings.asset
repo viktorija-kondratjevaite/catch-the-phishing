@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FourthTask.unity
     guid: 4ac2873e1ccbd424d86bf516c35dfec2
+  - enabled: 1
+    path: Assets/Scenes/TheEnd.unity
+    guid: 0a177ce5ea659440d98f1b5d0ac80d9d
   m_configObjects: {}

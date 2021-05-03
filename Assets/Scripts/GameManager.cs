@@ -35,4 +35,8 @@ public static class GameManager {
     public static void ComeBackToIsland() {
         SceneManager.LoadSceneAsync("Island");
     }
+
+    public static void OpenMoreAboutPhishing() {
+        Application.OpenURL("https://www.phishing.org/what-is-phishing#:~:text=Phishing%20is%20a%20cybercrime%20in,credit%20card%20details%2C%20and%20passwords.");
+    }
 }

@@ -36,7 +36,7 @@ public class MenuManager : MonoBehaviour {
     }
 
     public void QuitGame() {
-        Application.Quit();
+         Application.Quit();
     }
 
     public void MuteMusic() {
@@ -52,5 +52,9 @@ public class MenuManager : MonoBehaviour {
     public void Play() {
         isStartOfGame = false;
         GameManager.ComeBackToIsland();
+    }
+
+    public void MoreAboutPhishing() {
+        GameManager.OpenMoreAboutPhishing();
     }
 }
