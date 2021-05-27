@@ -2,6 +2,7 @@
 ## Edukacinis žaidimas duomenų vagystės tematika
 
 Žaidimą sukūrė: Viktorija Kondratjevaitė 
+
 Edukacinis žaidimas yra bakalaurinio darbo projektas Vilniaus Universiteto Programų Sistemų kursui. 
 
 Tam, kad peržiūrėti žaidimą jo neparsisiuntus, nuoroda į demonstracinį filmuką: https://drive.google.com/drive/folders/17EU557zdFGWD_MYQuQmSubxYYAiqeZvG?usp=sharing
